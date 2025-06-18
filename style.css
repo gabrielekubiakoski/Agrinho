@@ -2,3 +2,11 @@ body{
     background-color: rgb(93, 210, 130);
     font-size: 20px;
 }
+body {
+  background-image: url('caminho/para/sua-imagem.jpg');
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Posiciona a imagem no centro */
+  background-attachment: fixed; /* Faz a imagem de fundo fixar ao rolar a página */
+  height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+  margin: 0;
+}
