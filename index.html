@@ -1,32 +1,145 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGRINHO 2025</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inovação no Campo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #e0f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+            header {
+            background: linear-gradient(to right, #00796b, #004d40);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 3rem;
+        }
+
+        section {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #004d40;
+        }
+
+        .card {
+            display: inline-block;
+            width: 25%;
+            margin: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background-color: white;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #80cbc4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animação para header */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        header {
+            animation: fadeIn 1s ease-out;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="titulo">O agro e a Inclução digital</h1>
-    <p> O agro e a inclusão digital são temas que têm ganhado cada vez mais importância no Brasil, especialmente com o avanço
-     das tecnologias e a necessidade de modernização no campo. Basicamente, a inclusão digital no setor agropecuário significa 
-     levar tecnologia e conectividade para as áreas rurais, ajudando os produtores a utilizarem ferramentas digitais que podem 
-     otimizar a produção, melhorar a gestão das propriedades e até facilitar o acesso a mercados e financiamentos. Isso inclui
-     desde o uso de aplicativos e plataformas de gestão até o uso de sensores para monitorar a saúde das plantas e dos animais.
-     <p> No entanto, a inclusão digital não é apenas sobre ter acesso à internet ou dispositivos, mas também sobre capacitar os 
-    agricultores, especialmente os pequenos, para que possam tirar proveito dessas tecnologias. O maior desafio, muitas vezes, é 
-    garantir que os produtores consigam aprender a usar essas ferramentas, já que a resistência à mudança e a falta de treinamento
-    são barreiras significativas. Além disso, a infraestrutura de internet ainda é um problema em muitas regiões rurais, o que 
-    dificulta o processo de digitalização.</p>
-<p> Quando isso acontece, o impacto é positivo: o produtor ganha mais eficiência, tem acesso a novos mercados e pode tomar decisões
-   mais informadas, o que aumenta sua competitividade. Porém, é importante lembrar que a inclusão digital deve ser feita de maneira
-   inclusiva e acessível, para que todos, independentemente do porte da propriedade ou da região onde vivem, possam usufruir dessas 
-   melhorias. Com o tempo, a digitalização tem o potencial de transformar o agro, trazendo mais sustentabilidade e inovação para o setor.</p>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Inovação Tecnológica no Campo</h1>
+        <p>Transformando a Agricultura com Tecnologia Avançada</p>
+    </header>
 
+    <!-- Seção de Apresentação -->
+    <section>
+        <h2>Explore Como a Tecnologia Está Revolucionando o Campo</h2>
+        <p>A agricultura do futuro já chegou! Conheça as soluções inovadoras que estão tornando o campo mais produtivo, sustentável e inteligente.</p>
+        <a href="#tecnologias" class="btn">Saiba Mais</a>
+    </section>
 
+    <!-- Seção de Tecnologias -->
+    <section id="tecnologias">
+        <h2>Algumas das Tecnologias que Estão Revolucionando o Campo</h2>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Drone_in_the_sky.jpg" alt="Drone no campo">
+            <h3>Drones para Monitoramento</h3>
+            <p>Uso de drones para monitorar culturas, analisar o solo e otimizar o uso de recursos.</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Solar_panels_in_field.jpg/1024px-Solar_panels_in_field.jpg" alt="Energia solar no campo">
+            <h3>Energia Solar Sustentável</h3>
+            <p>A energia solar é uma aliada poderosa na agricultura, gerando energia limpa e acessível.</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/IoT_Devices_on_Agriculture.jpg" alt="Dispositivos IoT no campo">
+            <h3>Internet das Coisas (IoT)</h3>
+            <p>Sensores inteligentes ajudam a otimizar o uso de água, fertilizantes e melhorar a produção.</p>
+        </div>
+    </section>
 
-
-
-  </p>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Inovação no Campo. Todos os direitos reservados.</p>
+        <p>Saiba mais sobre nossas soluções tecnológicas: <a href="https://www.exemplo.com">www.exemplo.com</a></p>
+    </footer>
 </body>
 </html>
