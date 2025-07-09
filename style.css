@@ -1,15 +1,14 @@
-     /* Estilo geral da página */
+     
      body {
      margin: 0;
      padding: 0;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     background: linear-gradient(to bottom, #e0ffe0, #f4f4f4); /* campo para cidade */
+     background: linear-gradient(to bottom, #e0ffe0, #f4f4f4);
      color: #333;
           }
 
-          /* Cabeçalho com estilo tecnológico */
           header {
-      background: linear-gradient(to right, #1f1f1f, #52ac55); /* tecnologia no campo */
+      background: linear-gradient(to right, #1f1f1f, #52ac55); 
       color: white;
       padding: 20px;
       text-align: center;
@@ -22,7 +21,7 @@
       letter-spacing: 1px;
       }
 
-      /* Seções com toque de natureza */
+     
       section {
       padding: 40px 20px;
       background-color: #ffffffcc;
