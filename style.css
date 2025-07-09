@@ -5,9 +5,9 @@
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      background: linear-gradient(to bottom, #e0ffe0, #f4f4f4);
      color: #333;
-          }
+     }
 
-          header {
+     header {
       background: linear-gradient(to right, #1f1f1f, #52ac55); 
       color: white;
       padding: 20px;
@@ -21,7 +21,6 @@
       letter-spacing: 1px;
       }
 
-     
       section {
       padding: 40px 20px;
       background-color: #ffffffcc;
@@ -33,7 +32,6 @@
       box-shadow: 0 0 10px #c8e6c9;
       }
 
-      /* Botões tecnológicos */
       button {
       background-color: #52ac55;
       color: white;
@@ -49,7 +47,6 @@
       background-color: #52ac55;
       }
 
-      /* Rodapé com estilo urbano */
       footer {
       background-color: #1f1f1f;
       color: #ccc;
@@ -58,7 +55,6 @@
       font-size: 0.9em;
       }
 
-      /* Estilo de links */
       a {
       color: #52ac55;
       text-decoration: none;
@@ -68,7 +64,6 @@
       text-decoration: underline;
       }
 
-      /* Ícones ou imagens tecnológicas e agrícolas */
       .icon {
       width: 60px;
       height: 60px;
@@ -76,7 +71,6 @@
       filter: drop-shadow(0 0 3px #52ac55);
       }
 
-      /* Grade de recursos tecnológicos */
       .tech-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -94,8 +88,6 @@
       .tech-item:hover {
       transform: scale(1.05);
      }
-
-     /* Estilo para dispositivos */
      @media (max-width: 600px) {
      h1 {
      font-size: 2em;
